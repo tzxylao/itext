@@ -95,7 +95,7 @@ public class SignPdf {
         byte[] fileData = sign("123456", "E:\\picture2\\keystore.p12", //
                 "E:\\picture2\\createSamplePDF.pdf",//
                 "E:\\picture2\\sign.png", 100, 290);
-        FileOutputStream f = new FileOutputStream(new File("E:\\picture2\\createSamplePDF2.pdf"));
+        FileOutputStream f = new FileOutputStream(new File("E:\\picture2\\createSamplePDF.pdf"));
         f.write(fileData);
         f.close();
     }
